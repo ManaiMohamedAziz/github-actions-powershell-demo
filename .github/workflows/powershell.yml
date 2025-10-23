@@ -1,5 +1,5 @@
-name: PowerShell Demo
 
+name: PowerShell Demo
 on:
   push:
     branches:
@@ -15,5 +15,4 @@ jobs:
 
     - name: Run PowerShell script
       shell: pwsh
-      run: |
-        ..\script.ps1
+      run: ./script.ps1
